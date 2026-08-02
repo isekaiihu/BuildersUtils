@@ -1,0 +1,26 @@
+# Gradle / build
+.gradle/
+build/
+build-log.txt
+target/
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse / VS Code
+.classpath
+.project
+.settings/
+bin/
+.vscode/
+
+# Loom run dir
+run/
+
+# Git
+.git/

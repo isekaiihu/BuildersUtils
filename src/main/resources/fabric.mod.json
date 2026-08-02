@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "buildersutils",
+  "version": "${version}",
+  "name": "BuildersUtils",
+  "description": "Client-side WorldEdit-style selection with a wooden axe, plus automated player-like area/wall mining.",
+  "authors": [
+    "ISekai"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.isekai.buildersutils.BuildersUtilsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
